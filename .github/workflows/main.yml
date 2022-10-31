@@ -24,4 +24,4 @@ jobs:
        run:  npm install -g surge
        
      - name: Deploy website on surge
-       run:  surge ./ index.html.surge.sh --token ${{secrets.SURGE_TOKEN}}
+       run:  surge ./ smooth-trouble.surge.sh --token ${{secrets.SURGE_TOKEN}}
